@@ -78,3 +78,20 @@ matching hook variant in `ActivationCollector`.
 - Evaluation scripts fall back to NLTK BLEU + pure-python ROUGE-L when
   `pycocoevalcap` is unavailable (METEOR is then skipped), so they run without
   a JRE, and print which backend was used.
+
+## Reference
+
+This work has been accepted to **MICCAI 2026**. If you find it useful, please
+cite:
+
+```bibtex
+@inproceedings{chen2026viewpndf,
+  title     = {Seeing Through Multiple Views: Parameter-Efficient Fine-Tuning
+               via Selective Neurons for Consistent Radiology Report Generation},
+  author    = {Chen, Yucheng and Zhu, Jinjing and Yu, Yang and Shi, Yufei and
+               Naghshbandi, Hane and Liu, Jinhua and Koh, Angela S. and
+               Fen, Fang and Ong, Kian Eng and Yeo, Si Yong},
+  booktitle = {Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
+  year      = {2026},
+}
+```
