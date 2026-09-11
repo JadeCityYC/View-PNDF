@@ -1,0 +1,19 @@
+# Secrets / local config
+.env
+
+# Data & model artifacts (do not commit)
+data/
+ckpt/
+neuron_deactivation/
+outputs/
+*.pth
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
